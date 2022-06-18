@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <title>Feira Livre de Messejana</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#myNavbar"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Logo</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#sobre">SOBRE</a></li>
+              <li><a href="#produtos">PRODUTOS</a></li>
+              <li><a href="#feirantes">FEIRANTES</a></li>
+              <li><a href="#depoimentos">DEPOIMENTOS</a></li>
+              <li><a href="#funcionamento">FUNCIONAMENTO</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="jumbotron text-center" id="topo">
+      <h1>Feira de Messejana</h1>
+      <p>A melhor feira da capital</p>
+    </div>
+
+    <div class="topo container-fluid text-center">
+      <div class="row d-flex">
+        <div class="col-sm-4">
+          <h4>Feira de Messejana</h4>
+          <h6><a href="#reservation">Venha conhecer</a></h6>
+        </div>
+        <div class="col-sm-8">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#myCarousel"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="assets/images/feira-02.jpg" alt="Feira 01" />
+              </div>
+
+              <div class="item">
+                <img src="assets/images/feira-04.jpg" alt="Feira 02" />
+              </div>
+
+              <div class="item">
+                <img src="assets/images/feira-03.jpg" alt="Feira 03" />
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a
+              class="left carousel-control"
+              href="#myCarousel"
+              data-slide="prev"
+            >
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="right carousel-control"
+              href="#myCarousel"
+              data-slide="next"
+            >
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sobre container-fluid" id="sobre">
+      <div class="row">
+        <div class="col-sm-6">
+          <h6>Sobre a Feira</h6>
+          <h2>Um pouco sobre</h2>
+          <p>
+            Uma das maiores feiras livres do estado do Ceará, nela você encontra
+            tudo que precisa e o até o que você nao precisa também 😄. Assista
+            ao video e descubra mais.
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <video width="640" height="480" controls>
+            <source src="assets/images/video.mp4" type="video/mp4" />
+            /> Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <div class="produtos container-fluid" id="produtos">
+      <h6>Produtos</h6>
+      <h2>O que você encontra</h2>
+
+      <div class="container-fluid text-center">
+        <div class="row text-center">
+          <div class="col-sm-3">
+            <div class="thumbnail">
+              <img src="assets/images/feira-08.jpg" alt="Paris" />
+              <p><strong>Peixes</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="thumbnail">
+              <img src="assets/images/feira-01.jpg" alt="New York" />
+              <p><strong>Frutas</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="thumbnail">
+              <img src="assets/images/feira-04.jpg" alt="San Francisco" />
+              <p><strong>Vestuário</strong></p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="thumbnail">
+              <img src="assets/images/feira-05.jpg" alt="San Francisco" />
+              <p><strong>Variedades</strong></p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="feirantes container-fluid" id="feirantes">
+      <h6>Os vendedores</h6>
+      <h2>As pessoas que fazem a feira acontecer!</h2>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+              <img src="assets/images/feira-01.jpg" alt="#1" />
+          </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="assets/images/feira-09.jpg" alt="#1" />
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="assets/images/feira-07.jpg" alt="#1" />
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="depoimentos container-fluid" id="depoimentos">
+      <h6>Depoimentos</h6>
+      <h2>O que as pessoas estão falando sobre a feira</h2>
+      <div class="row">
+        <div class="col-sm-6" >
+          <img src="assets/images/pessoa-01.jpg" alt="" height="100"/>
+          <h4>Elizabete Ribeiro</h4>
+          <p>
+            Tem o que você nem imagina. Feira popular, lembram feiras interior, adoro
+          </p>
+          <img src="assets/images/pessoa-02.jpg" alt="" height="100"/>
+          <h4>José Otávio</h4>
+          <p>
+            Comércio popular incrível. Acho que tem de tudo aqui
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <img src="assets/images/pessoa-03.jpg" alt="" height="100"/>
+          <h4>Olavo Neto</h4>
+          <p>
+            Grande variedade de frutas, todas fresquinhas!!
+          </p>
+          <img src="assets/images/pessoa-04.jpg" alt="" height="100"/>
+          <h4>Cleiciane Santos</h4>
+          <p>
+            Ótima experiência, grande variedade de produtos com preços convidativos
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="funcionamento container-fluid" id="funcionamento">
+      <div class="row">
+        <div class="col-sm-6">
+          
+          <h2>Visite!</h2>
+
+          <div class="local">
+            
+            <h4>Endereço</h4>
+            <span>Rua Joaquim Felício</span>
+          </div>
+
+          <div class="hora">
+            
+            <h4>Horário</h4>
+            <span>Domingo a partir das 7h</span>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15923.61300099192!2d-38.513368882232974!3d-3.830931195558041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74ffc6467466b%3A0xd050b65d501fce79!2sFeira%20Da%20Praca%20P%C3%BAblica%20Do%20Mercado%20De%20Messejana!5e0!3m2!1spt-BR!2sbr!4v1655513225795!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+      <a href="#topo" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>
+        Desenvolvido por
+        <a href="https://github.com/christoffer1009/">Christoffer Cavalcante</a>
+      </p>
+    </footer>
+  </body>
+</html>
